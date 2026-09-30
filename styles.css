@@ -143,6 +143,7 @@ h1 span {
 .hero-visual img {
   display: block; width: 208px; height: 208px;
   border-radius: 50%; object-fit: cover;
+  object-position: center top; /* 竖版头像裁剪时优先露出上半部分（脸部） */
   background: #f4f1e9;
 }
 
